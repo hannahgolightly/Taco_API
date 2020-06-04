@@ -1,0 +1,13 @@
+body, code {
+    background-color: #fffadc;
+    background-image: url("https://images.unsplash.com/photo-1567539549213-cc1697632146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
+    background-size: 60%;
+    background-position: center;
+    font-family: 'Raleway', sans-serif;
+    color: #545454;
+}
+
+
+a {
+    color: #545454;
+}

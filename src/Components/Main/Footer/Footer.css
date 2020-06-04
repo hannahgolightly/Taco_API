@@ -1,0 +1,13 @@
+.footer {
+    height: 20px;
+    background-color: #F5A035;
+    margin-top: 40px;
+    padding: 30px 15%;
+    text-align: right;
+    border-top: 4px solid#f5d418;
+}
+
+a {
+    font-family: inherit;
+    font-size: 18px;
+}
