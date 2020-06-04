@@ -1,3 +1,5 @@
+This site uses this api http://taco-randomizer.herokuapp.com/random/ to provide the user with a random taco recipe for their lunch.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
