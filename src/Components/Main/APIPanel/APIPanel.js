@@ -1,6 +1,6 @@
 import React from 'react';
 import './APIPanel.css';
-const ReactMarkdown = require('react-markdown/with-html')
+const ReactMarkdown = require('react-markdown')
 
 class GetRecipe extends React.Component {
 
@@ -57,11 +57,11 @@ class GetRecipe extends React.Component {
 
                 <div className="container-main">
                     <div className="recipeSection">
-                        <ReactMarkdown source={this.state.mainRecipe} />
-                        <ReactMarkdown source={this.state.contentsRecipe} />
-                        <ReactMarkdown source={this.state.condimentsRecipe} />
-                        <ReactMarkdown source={this.state.seasoningRecipe} />
-                        <ReactMarkdown source={this.state.shellRecipe} />
+                        <ReactMarkdown children={this.state.mainRecipe} />
+                        <ReactMarkdown children={this.state.contentsRecipe} />
+                        <ReactMarkdown children={this.state.condimentsRecipe} />
+                        <ReactMarkdown children={this.state.seasoningRecipe} />
+                        <ReactMarkdown children={this.state.shellRecipe} />
                     </div>
                 </div>
             </div>
